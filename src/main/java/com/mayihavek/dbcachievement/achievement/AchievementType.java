@@ -105,116 +105,193 @@ public enum AchievementType {
 
     // 混血赛亚人形态
     HYBRID_GREAT_APE("hybrid_great_ape", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,7)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_GOLDEN_APE("hybrid_golden_ape", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,8)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_SSJ("hybrid_ssj", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,1)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_SSJ2("hybrid_ssj2", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,2)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_SSJ3("hybrid_ssj3", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,3)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_SSJ_FULL_POWER("hybrid_ssj_full_power", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,4)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_SSJ2_REAL("hybrid_ssj2_real", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,5)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_SSJ3_REAL("hybrid_ssj3_real", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,6)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_SSJ4("hybrid_ssj4", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,14)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_SSG("hybrid_ssg", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,9)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_SSB("hybrid_ssb", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,10)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HYBRID_SSB_EVOLVED("hybrid_ssb_evolved", (player, achievementId, achievementLoader) -> {
-
+        if(isHalfSaiyanRace(player) && isState(player,15)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
 
     // 人类形态
     HUMAN_POTENTIAL("human_potential", (player, achievementId, achievementLoader) -> {
-
+        if(isHumanRace(player) && isState(player,1)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HUMAN_MUSCLE("human_muscle", (player, achievementId, achievementLoader) -> {
-
+        if(isHumanRace(player) && isState(player,2)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     HUMAN_GOD("human_god", (player, achievementId, achievementLoader) -> {
-
+        if(isHumanRace(player) && isState(player,3)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
 
     // 那美克星人形态
     NAMEKIAN_GIANT("namekian_giant", (player, achievementId, achievementLoader) -> {
-
+        if(isNamekianRace(player) && isState(player,1)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     NAMEKIAN_POTENTIAL("namekian_potential", (player, achievementId, achievementLoader) -> {
-
+        if(isNamekianRace(player) && isState(player,2)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     NAMEKIAN_GOD("namekian_god", (player, achievementId, achievementLoader) -> {
-
+        if(isNamekianRace(player) && isState(player,3)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
 
     // 弗利萨形态
     FRIEZA_SUPER("frieza_super", (player, achievementId, achievementLoader) -> {
-
+        if(isFriezaRace(player) && isState(player,5)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     FRIEZA_GOLD("frieza_gold", (player, achievementId, achievementLoader) -> {
-
+        if(isFriezaRace(player) && isState(player,6)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     FRIEZA_GOD("frieza_god", (player, achievementId, achievementLoader) -> {
-
+        if(isFriezaRace(player) && isState(player,7)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
 
     // 魔人形态
     MAJIN_EVIL("majin_evil", (player, achievementId, achievementLoader) -> {
-
+        if(isMajinRace(player) && isState(player,1)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     MAJIN_FULL_POWER("majin_full_power", (player, achievementId, achievementLoader) -> {
-
+        if(isMajinRace(player) && isState(player,2)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     MAJIN_PURE("majin_pure", (player, achievementId, achievementLoader) -> {
-
+        if(isMajinRace(player) && isState(player,3)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     }),
     MAJIN_GOD("majin_god", (player, achievementId, achievementLoader) -> {
-
+        if(isMajinRace(player) && isState(player,4)){
+            achievementLoader.grantAchievement(player, achievementId);
+        }
+    }),
+    KAIOKEN("kaioken", (player, achievementId, achievementLoader) -> {
+        if(isAccept(player) && getDBCEntityData(player).getInteger("jrmcState2") > 0){
+            if(!isContains(player,"jmcStatusEff","N")) {
+                achievementLoader.grantAchievement(player, achievementId);
+            }
+        }
+    }),
+    MYSTIC("mystic", (player, achievementId, achievementLoader) -> {
+        if(isAccept(player) && isContains(player,"jmcStatusEff","C")) {
+            achievementLoader.grantAchievement(player, achievementId);
+        }
+    }),
+    ULTRA_INSTINCT("ultra_instinct", (player, achievementId, achievementLoader) -> {
+        if(isAccept(player) && isContains(player,"jmcStatusEff","N") && getDBCEntityData(player).getInteger("jrmcState2") == 2) {
+            achievementLoader.grantAchievement(player, achievementId);
+        }
+    }),
+    ULTRA_EGO("ultra_ego", (player, achievementId, achievementLoader) -> {
+        if(isAccept(player) && isContains(player,"jmcStatusEff","NN")&& getDBCEntityData(player).getInteger("jrmcState2") == 3) {
+            achievementLoader.grantAchievement(player, achievementId);
+        }
     });
 
+
     private static boolean isHumanRace(EntityPlayerMP player) {
-        return isEqualValue(player, "jrmcRace", 0) && isEqualValue(player, "jrmcAccept", 1);
+        return isEqualValue(player, "jrmcRace", 0) && isAccept(player);
     }
 
 
     private static boolean isSaiyanRace(EntityPlayerMP player) {
-        return isEqualValue(player, "jrmcRace", 1) && isEqualValue(player, "jrmcAccept", 1);
+        return isEqualValue(player, "jrmcRace", 1) && isAccept(player);
     }
 
     private static boolean isHalfSaiyanRace(EntityPlayerMP player) {
-        return isEqualValue(player, "jrmcRace", 2) && isEqualValue(player, "jrmcAccept", 1);
+        return isEqualValue(player, "jrmcRace", 2) && isAccept(player);
     }
 
     private static boolean isNamekianRace(EntityPlayerMP player) {
-        return isEqualValue(player, "jrmcRace", 3) && isEqualValue(player, "jrmcAccept", 1);
+        return isEqualValue(player, "jrmcRace", 3) && isAccept(player);
     }
 
     private static boolean isFriezaRace(EntityPlayerMP player) {
-        return isEqualValue(player, "jrmcRace", 4) && isEqualValue(player, "jrmcAccept", 1);
+        return isEqualValue(player, "jrmcRace", 4) && isAccept(player);
     }
 
     private static boolean isMajinRace(EntityPlayerMP player) {
-        return isEqualValue(player, "jrmcRace", 5) && isEqualValue(player, "jrmcAccept", 1);
+        return isEqualValue(player, "jrmcRace", 5) && isAccept(player);
     }
 
     private static boolean isState(EntityPlayerMP player,int value){
-        return isEqualValue(player, "jrmcState", value);
+        return isEqualValue(player, "jrmcState", value) && isAccept(player);
+    }
+
+    public static boolean isAccept(EntityPlayerMP player){
+        return isEqualValue(player, "jrmcAccept", 1);
     }
 
     /**
