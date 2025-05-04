@@ -64,32 +64,32 @@ public class AchievementLoader {
         // 独立高级形态成就 (放在龙珠Super上方)
         createAchievement("kaioken")
                 .withPosition(-2, -2)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("界王拳"))
                 .setSpecial()
                 .register();
 
         createAchievement("mystic")
                 .withPosition(-4, -2)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("老界王的仪式"))
                 .setSpecial()
                 .register();
 
         createAchievement("ultra_instinct")
                 .withPosition(2, -2)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("自在极意"))
                 .setSpecial()
                 .register();
 
         createAchievement("ultra_ego")
                 .withPosition(4, -2)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("自我极意"))
                 .setSpecial()
                 .register();
 
         //进入服务器自动获得，龙珠 Super 成就 (放在中心顶部位置)
         createAchievement("dragon_super")
                 .withPosition(0, 0)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("龙珠super"))
                 .register();
 
         // 种族成就 (横向排列在龙珠Super下方，间隔4格)
@@ -102,28 +102,28 @@ public class AchievementLoader {
         //混血赛亚人
         createAchievement("hybrid_saiyan_race")
                 .withPosition(-6, 2)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("混血赛亚人"))
                 .withParent("dragon_super")
                 .register();
 
         //人类
         createAchievement("human_race")
                 .withPosition(-2, 2)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("人类"))
                 .withParent("dragon_super")
                 .register();
 
         //那美克
         createAchievement("namekian_race")
                 .withPosition(2, 2)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("那美克星人"))
                 .withParent("dragon_super")
                 .register();
 
         //弗利萨
         createAchievement("frieza_race")
                 .withPosition(6, 2)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("冰冻恶魔"))
                 .withParent("dragon_super")
                 .register();
 
@@ -131,7 +131,7 @@ public class AchievementLoader {
         //魔人
         createAchievement("majin_race")
                 .withPosition(10, 2)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("魔人"))
                 .withParent("dragon_super")
                 .register();
 
@@ -139,84 +139,84 @@ public class AchievementLoader {
         //巨猿
         createAchievement("great_ape")
                 .withPosition(-14, 4)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("赛亚巨猿"))
                 .withParent("saiyan_race")
                 .register();
 
         //黄金巨猿
         createAchievement("golden_ape")
                 .withPosition(-14, 6)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("黄金巨猿"))
                 .withParent("great_ape")
                 .register();
 
         //超级赛亚人
         createAchievement("saiyan_ssj")
                 .withPosition(-12, 4)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人"))
                 .withParent("saiyan_race")
                 .register();
 
         //超级赛亚人 1:2
         createAchievement("saiyan_ssj2")
                 .withPosition(-12, 6)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人1:2"))
                 .withParent("saiyan_ssj")
                 .register();
 
         //超级赛亚人 1:3
         createAchievement("saiyan_ssj3")
                 .withPosition(-12, 8)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人1:3"))
                 .withParent("saiyan_ssj2")
                 .register();
 
         //超级赛亚人全功率
         createAchievement("saiyan_ssj_full_power")
                 .withPosition(-12, 10)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人全功率"))
                 .withParent("saiyan_ssj3")
                 .register();
 
         //超级赛亚人2
         createAchievement("saiyan_ssj2_real")
                 .withPosition(-12, 12)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人2"))
                 .withParent("saiyan_ssj_full_power")
                 .register();
 
         //超级赛亚人3
         createAchievement("saiyan_ssj3_real")
                 .withPosition(-12, 14)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人3"))
                 .withParent("saiyan_ssj2_real")
                 .register();
 
         //超级赛亚人4
         createAchievement("saiyan_ssj4")
                 .withPosition(-12, 16)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人4"))
                 .withParent("saiyan_ssj3_real")
                 .register();
 
         //超级赛亚人之神
         createAchievement("saiyan_ssg")
                 .withPosition(-12, 18)
-                .withIcon(items.get("赛亚人"))
-                .withParent("saiyan_ssj4")
+                .withIcon(items.get("超级赛亚人之神"))
+                .withParent("hybrid_ssj3_real")
                 .register();
 
         //超级赛亚人蓝
         createAchievement("saiyan_ssb")
                 .withPosition(-12, 20)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人蓝"))
                 .withParent("saiyan_ssg")
                 .register();
 
         //超级赛亚人深蓝
         createAchievement("saiyan_ssb_evolved")
                 .withPosition(-12, 22)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人深蓝"))
                 .withParent("saiyan_ssb")
                 .register();
 
@@ -225,84 +225,84 @@ public class AchievementLoader {
         //巨猿
         createAchievement("hybrid_great_ape")
                 .withPosition(-8, 4)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("赛亚巨猿"))
                 .withParent("hybrid_saiyan_race")
                 .register();
 
         //黄金巨猿
         createAchievement("hybrid_golden_ape")
                 .withPosition(-8, 6)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("黄金巨猿"))
                 .withParent("hybrid_great_ape")
                 .register();
 
         //超级赛亚人
         createAchievement("hybrid_ssj")
                 .withPosition(-6, 4)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人"))
                 .withParent("hybrid_saiyan_race")
                 .register();
 
         //超级赛亚人 1:2
         createAchievement("hybrid_ssj2")
                 .withPosition(-6, 6)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人1:2"))
                 .withParent("hybrid_ssj")
                 .register();
 
         //超级赛亚人 1:3
         createAchievement("hybrid_ssj3")
                 .withPosition(-6, 8)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人1:3"))
                 .withParent("hybrid_ssj2")
                 .register();
 
         //超级赛亚人全功率
         createAchievement("hybrid_ssj_full_power")
                 .withPosition(-6, 10)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人全功率"))
                 .withParent("hybrid_ssj3")
                 .register();
 
         //超级赛亚人2
         createAchievement("hybrid_ssj2_real")
                 .withPosition(-6, 12)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人2"))
                 .withParent("hybrid_ssj_full_power")
                 .register();
 
         //超级赛亚人3
         createAchievement("hybrid_ssj3_real")
                 .withPosition(-6, 14)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人3"))
                 .withParent("hybrid_ssj2_real")
                 .register();
 
         //超级赛亚人4
         createAchievement("hybrid_ssj4")
                 .withPosition(-6, 16)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人4"))
                 .withParent("hybrid_ssj3_real")
                 .register();
 
         //超级赛亚人之神
         createAchievement("hybrid_ssg")
                 .withPosition(-6, 18)
-                .withIcon(items.get("赛亚人"))
-                .withParent("hybrid_ssj4")
+                .withIcon(items.get("超级赛亚人之神"))
+                .withParent("hybrid_ssj3_real")
                 .register();
 
         //超级赛亚人蓝
         createAchievement("hybrid_ssb")
                 .withPosition(-6, 20)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人蓝"))
                 .withParent("hybrid_ssg")
                 .register();
 
         //超级赛亚人深蓝
         createAchievement("hybrid_ssb_evolved")
                 .withPosition(-6, 22)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级赛亚人深蓝"))
                 .withParent("hybrid_ssb")
                 .register();
 
@@ -311,21 +311,21 @@ public class AchievementLoader {
         //人类的潜力
         createAchievement("human_potential")
                 .withPosition(-2, 4)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("人类潜力释放"))
                 .withParent("human_race")
                 .register();
 
         //人类的爆发
         createAchievement("human_muscle")
                 .withPosition(-2, 6)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("肌肉强化"))
                 .withParent("human_potential")
                 .register();
 
         //神明的力量
         createAchievement("human_god")
                 .withPosition(-2, 8)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("人类神形态"))
                 .withParent("human_muscle")
                 .register();
 
@@ -334,21 +334,21 @@ public class AchievementLoader {
         //巨大化
         createAchievement("namekian_giant")
                 .withPosition(2, 4)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("巨人"))
                 .withParent("namekian_race")
                 .register();
 
         //潜力释放
         createAchievement("namekian_potential")
                 .withPosition(2, 6)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("那美克星人潜力释放"))
                 .withParent("namekian_giant")
                 .register();
 
         //那美克星之神
         createAchievement("namekian_god")
                 .withPosition(2, 8)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("那美克星之神"))
                 .withParent("namekian_potential")
                 .register();
 
@@ -356,21 +356,21 @@ public class AchievementLoader {
         //最终姿态
         createAchievement("frieza_super")
                 .withPosition(6, 4)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("超级形态"))
                 .withParent("frieza_race")
                 .register();
 
         //黄金形态
         createAchievement("frieza_gold")
                 .withPosition(6, 6)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("最终形态"))
                 .withParent("frieza_super")
                 .register();
 
         //冰冻恶魔之神
         createAchievement("frieza_god")
                 .withPosition(6, 8)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("冰冻恶魔神形态"))
                 .withParent("frieza_gold")
                 .register();
 
@@ -378,28 +378,28 @@ public class AchievementLoader {
         //邪恶魔人
         createAchievement("majin_evil")
                 .withPosition(10, 4)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("邪恶魔人"))
                 .withParent("majin_race")
                 .register();
 
         //魔人全功率
         createAchievement("majin_full_power")
                 .withPosition(10, 6)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("魔人全功率"))
                 .withParent("majin_evil")
                 .register();
 
         //纯粹魔人
         createAchievement("majin_pure")
                 .withPosition(10, 8)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("纯粹魔人"))
                 .withParent("majin_full_power")
                 .register();
 
         //魔人之神
         createAchievement("majin_god")
                 .withPosition(10, 10)
-                .withIcon(items.get("赛亚人"))
+                .withIcon(items.get("魔人神形态"))
                 .withParent("majin_pure")
                 .register();
 
